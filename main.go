@@ -7,5 +7,6 @@ import (
 
 func main() {
 	fmt.Println("Algorithms and data structure")
-	sort.InsertionSort([]int{5, 4, 3, 2, 1})
+	arr := sort.InsertionSort([]int{10, -2, 100, -10, -1, 12, 1})
+	fmt.Println(arr)
 }
